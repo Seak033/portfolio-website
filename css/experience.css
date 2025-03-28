@@ -1,0 +1,123 @@
+#experience {
+    margin-bottom: 1rem;
+    margin-left: 1.1rem;
+}
+
+#experience a {
+    text-decoration: none;
+}
+
+#experience:hover {
+    background-color: hsla(216, 100%, 50%, 0.1);
+    border: #0167ff2c; 
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#experience .arrow,
+.resume .arrow {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+#experience:hover .arrow,
+.resume:hover .arrow {
+    transform: rotate(45deg) scale(1.0) translate(0px, -8px);
+    transition: transform 0.2s ease-in-out;
+    color: hsla(183, 100%, 50%, 0.884);
+}
+
+#experience:hover .position {
+    color: hsla(183, 100%, 50%, 0.884);
+}
+
+
+.experience-container {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: block;
+}
+
+.arrow {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    transform: rotate(45deg);
+    vertical-align: middle;
+}
+
+.year,
+.position,
+.description,
+.language1,
+.language2,
+.language3 {
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+.year {
+    font-size: 0.85rem;
+    color: rgba(228, 252, 255, 0.616);
+}
+
+.position {
+    font-size: 1rem;
+    color: rgb(30, 255, 0);
+    display: inline-flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    width: 100%; /* Ensure it takes up available width */
+}
+
+.language1,
+.language2,
+.language3 {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(30, 255, 0);
+    background-color: rgba(53, 137, 232, 0.295);
+    margin-top: 0.5rem; /* Adds space between language tags */
+}
+
+.language1 {
+    display: inline-block;
+}
+
+.language2 {
+    display: inline-block;
+}
+
+.language3 {
+    display: inline-block;
+}
+
+.resume {
+    margin-bottom: 1rem;
+    margin-left: 2.3rem;
+    width: 25%;
+}
+
+.resume:hover a{
+    color: hsla(183, 100%, 50%, 0.884);
+
+}
+
+.resume a{
+    text-decoration: none;
+}
+
+.resume a:hover {
+    color: hsla(183, 100%, 50%, 0.884);
+
+}

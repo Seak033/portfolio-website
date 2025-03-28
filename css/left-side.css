@@ -1,0 +1,96 @@
+.left-container {
+    margin: 6rem 50rem 0 10rem;
+    position: fixed;
+}
+
+.left-container .title, .left-container .undertitle {
+    margin-right: -5rem;
+    font-size: 3.3rem;
+    position: relative;
+} 
+
+.left-container .undertitle {
+    font-size: 1.5rem;
+}
+
+.subtext {
+    margin: 2rem 10rem 0 0;
+    font-size: 1rem;
+}
+
+.navbar {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    z-index: 1000;
+}
+
+.navbar a .active {
+    color: green;
+} 
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    transition: color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background-color: #e7ecf1;
+    transition: width 0.3s ease-in-out;
+
+}
+
+.navbar a:hover::after {
+    width: 30%;
+}
+
+.navbar a:hover {
+    color: transparent;
+    background-image: linear-gradient(to right, #2f4ee6, #514efc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials {
+    margin-top: 10rem;
+    font-size: 2rem !important;
+
+}
+
+.socials a i {
+    padding: 10px;
+    font-size: 2rem; 
+    transition: all 0.3s ease; 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.4); 
+    border-radius: 25px;
+}
+
+.socials a i:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(0, 255, 255, 0.8); 
+}
+
+#linkedin, #instagram, #github {
+    color: #fff;
+}

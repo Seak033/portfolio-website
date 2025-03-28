@@ -1,0 +1,49 @@
+.right-container {
+    margin: 7rem 8rem 0 2rem;
+    text-align: left;
+}
+
+#about {
+    margin: 0 0 6rem 2rem;
+    position: relative;
+}
+
+.about-text {
+    color: rgb(239, 216, 216);
+}
+
+#about .java-link {
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+}
+
+#about .java-text {
+    font-family: 'Inter', sans-serif;
+    color: rgb(14, 235, 250);
+    transition: none;
+    display: inline;
+    transition: none;
+    margin-right: 0.5rem;
+}
+
+#about .java-text:hover {
+    color: transparent;
+    background-image: linear-gradient(to right, #db4747, #fefbfb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: none;
+}
+
+.about-text .java-icon {
+    display: none;
+    position: absolute;
+    font-size: 2rem;
+    color: rgb(210, 165, 154);
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    width: 50px;
+    height: auto;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
