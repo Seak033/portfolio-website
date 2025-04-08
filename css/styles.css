@@ -2,34 +2,37 @@
     margin: 0;
     padding: 0;
     color: white;
-    overflow: hidden;
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-padding-top: 400px;
-}
-
-#container {
-    display: flex;
-    height: 100vh;
-    flex-wrap: wrap;
 }
 
 body {
     background-image: url("/images/background.jpg");
     background-size: cover;
     font-family: 'Inter', sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
-#left-side, #right-side{
-    width: 50%;
-    z-index: 1000;
+#container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#left-side, #right-side {
+    height: 100vh;
+    width: 100%;
 }
 
 #right-side {
+    position: relative;
     overflow-y: auto;
     line-height: 1.5rem;
     word-spacing: 0.1rem;
-    margin-left: -10rem;
+    padding-top: 6rem;
+    z-index: 1; 
 }
 
 ::-webkit-scrollbar {
@@ -54,7 +57,7 @@ body {
 }
 
 /* phone screens */
-@media screen and (min-width: 350px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     
 }

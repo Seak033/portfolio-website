@@ -1,12 +1,16 @@
 .left-container {
-    margin: 6rem 50rem 0 10rem;
     position: fixed;
+    top: 5%;
+    left: 10%;
+    padding: 2rem;
+    z-index: 1000;
 }
 
 .left-container .title, .left-container .undertitle {
     margin-right: -5rem;
     font-size: 3.3rem;
     position: relative;
+    text-align: left;
 } 
 
 .left-container .undertitle {
@@ -24,18 +28,14 @@
     z-index: 1000;
 }
 
-.navbar a .active {
-    color: green;
-} 
-
 .navbar ul {
     display: flex;
-    list-style: none;
     padding: 0;
 }
 
 .navbar li {
     position: relative;
+    list-style: none;
     margin-top: 0.5rem;
     margin-right: 2rem;
 }
