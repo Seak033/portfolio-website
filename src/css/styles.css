@@ -17,8 +17,9 @@ body {
 
 #container {
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100%;
+    overflow-y: auto;
 }
 
 #left-side, #right-side {
@@ -28,7 +29,6 @@ body {
 
 #right-side {
     position: relative;
-    overflow-y: auto;
     line-height: 1.5rem;
     word-spacing: 0.1rem;
     padding-top: 6rem;
