@@ -4,6 +4,7 @@
     left: 10%;
     padding: 2rem;
     z-index: 2;
+    pointer-events: none;
 }
 
 .left-container .title, .left-container .undertitle {
