@@ -1,7 +1,6 @@
 .right-container {
-    position: absolute;
-    top: 10%;
-    right: 15%;
+    position: relative; 
+    margin-right: 15%;
     text-align: left;
 }
 
