@@ -5,6 +5,7 @@
     padding: 2rem;
     z-index: 2;
     pointer-events: auto;
+    transition: left 0.5s ease;
 }
 
 .left-container .title, .left-container .undertitle {
