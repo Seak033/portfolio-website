@@ -19,7 +19,7 @@
     .left-container {
         position: relative;
         top: 50px;
-        left: 0;                
+        left: -50px;                
         margin-right: 15%;
         
     }
@@ -29,9 +29,9 @@
         top: 50px;
         left: 65px;
         height: auto;
-        padding: 1rem 8rem 0 0;
+        padding: 1rem 6rem 0 0;
+        margin-left: -50px;
         text-align: left;
-
     }
 
     .left-container .title {
