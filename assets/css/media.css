@@ -23,7 +23,7 @@
 }
 
 /* Done */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 601px) and (max-width: 1440px) {
     body {
         min-height: unset;
         overflow-x: hidden;
