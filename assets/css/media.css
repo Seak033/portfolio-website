@@ -7,6 +7,14 @@
     .right-container {
         padding: 1rem 5rem 0 0;
     }
+
+    .left-container .title {
+        font-size: 2.5rem;
+    }
+
+    .left-container .undertitle {
+        font-size: 1.2rem;
+    }
     
     .section-header {
         margin-left: 10%
