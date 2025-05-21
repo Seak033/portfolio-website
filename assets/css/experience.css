@@ -1,6 +1,6 @@
 .right-container {
     position: relative; 
-    margin-right: 15%;
+    padding-right: 10rem;
     text-align: left;
 }
 
@@ -109,9 +109,9 @@
 }
 
 .resume {
-    margin-bottom: 1rem;
-    margin-left: 2.3rem;
-    width: 25%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    
 }
 
 .resume:hover a{

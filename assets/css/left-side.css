@@ -2,7 +2,7 @@
     position: fixed;
     top: 5%;
     left: 10%;
-    padding: 2rem;
+    padding: 2rem 0 0 6rem;
     z-index: 2;
     pointer-events: auto;
     transition: left 0.5s ease;
